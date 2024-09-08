@@ -1,0 +1,12 @@
+class Solution:
+    def hasDuplicate(self, nums: List[int]) -> bool:
+        hashset = set() -->  Firstly we have created a HashSet
+
+        for n in nums: -->next we generate a forloop
+            if n in hashset: --> Checking wheather if the number is already present in the hashset
+                return True --> if present return true
+            hashset.add(n) --> if the number is not present add the number to the hashset
+        return False --> return false is the number is not present in the hashset
+
+
+    
