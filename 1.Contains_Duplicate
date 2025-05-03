@@ -1,5 +1,5 @@
 class Solution:
-    def hasDuplicate(self, nums: List[int]) -> bool:
+    def hasDuplicate(self, nums: List[int]) -> bool:(self is the instance of the class)
         hashset = set() -->  Firstly we have created a HashSet
 
         for n in nums: -->next we generate a forloop
